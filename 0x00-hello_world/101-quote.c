@@ -9,7 +9,7 @@
 
 int main()
 {
-	char *s = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	write(1,"s\n", strlen(s));
+	char *s = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	write(1,s, strlen(s));
 	return (1);
 }
