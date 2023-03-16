@@ -1,7 +1,15 @@
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 #include <stdio.h>
-int main(void)
+#include <string.h>
+#include <unistd.h>
+
+int main()
 {
-	if (printf("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n")){
-	}
-	return (1);
+	char *s = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	write(1, s, strlen(s));
+	return (0);
 }
