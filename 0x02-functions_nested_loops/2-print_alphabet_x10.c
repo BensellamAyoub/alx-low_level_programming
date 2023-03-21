@@ -1,15 +1,18 @@
 #include "main.h"
 /**
- * print_alphabet - abcs
- *
+ * print_alphabet_x10 - abc x10
  * Return : always 0
  */
 void print_alphabet_x10(void)
 {
-	int i;
+	int i, j;
 
 	for (i = 0; i < 10; i++)
 	{
-		print_alphabet();
+		for (j = 97; j < 123; j++)
+		{
+			_putchar(i);
+		}
+	_putchar('\n');
 	}
 }
