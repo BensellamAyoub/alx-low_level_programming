@@ -5,7 +5,7 @@
  * Return: 1 is a letter 0 other
  */
 int print_sign(int n)
-}
+{
 	if (n > 0)
 	{
 		_putchar(43);
