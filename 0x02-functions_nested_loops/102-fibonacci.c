@@ -6,9 +6,9 @@
 */
 int main(void)
 {
-	int n;
+	int long  n;
 
-	int z;
+	int long z;
 
 	int sum[50];
 
