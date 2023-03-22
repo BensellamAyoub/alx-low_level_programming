@@ -1,11 +1,18 @@
 #include "main.h"
 /**
  * print_last_digit - check last digit
- * int : input
+ *@a : input
  * Return: 1 is a letter 0 other
  */
 int print_last_digit(int a)
 {
-	a = a % 10;
-	_putchar('0' + a);
+	int x;
+
+	x = a % 10;
+	if (x < 0)
+	{
+		x = -x;
+	}
+	_putchar('0' + x);
+	return (x);
 }
