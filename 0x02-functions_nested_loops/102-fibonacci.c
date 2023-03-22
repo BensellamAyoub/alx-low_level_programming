@@ -18,8 +18,9 @@ int main(void)
 	for (n = 2; n < 50; n++)
 	{
 	z = sum[n - 1] + sum[n - 2];
-	printf(", %li\n", z);
+	printf(", %li", z);
 	sum[n] = z;
 	}
+	printf("\n");
 	return (0);
 }
