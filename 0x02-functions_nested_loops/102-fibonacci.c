@@ -6,9 +6,9 @@
 */
 int main(void)
 {
-	int long  n;
+	int n;
 
-	int long z;
+	long long int z;
 
 	int sum[50];
 
@@ -18,7 +18,7 @@ int main(void)
 	for (n = 2; n < 50; n++)
 	{
 	z = sum[n - 1] + sum[n - 2];
-	printf("%i, ", z);
+	printf("%lili, ", z);
 	sum[n] = z;
 	}
 	return (0);
