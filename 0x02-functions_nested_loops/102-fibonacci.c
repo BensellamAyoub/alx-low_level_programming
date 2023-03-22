@@ -14,11 +14,11 @@ int main(void)
 
 	sum[0] = 1;
 	sum[1] = 2;
-	printf("1, 2, ");
+	printf("1, 2");
 	for (n = 2; n < 50; n++)
 	{
 	z = sum[n - 1] + sum[n - 2];
-	printf("%li, ", z);
+	printf(", %li, ", z);
 	sum[n] = z;
 	}
 	return (0);
