@@ -8,9 +8,9 @@ int main(void)
 {
 	int n;
 
-	long long int z;
+	long int z;
 
-	int sum[50];
+	long int sum[50];
 
 	sum[0] = 1;
 	sum[1] = 2;
@@ -18,7 +18,7 @@ int main(void)
 	for (n = 2; n < 50; n++)
 	{
 	z = sum[n - 1] + sum[n - 2];
-	printf("%lli, ", z);
+	printf("%li, ", z);
 	sum[n] = z;
 	}
 	return (0);
