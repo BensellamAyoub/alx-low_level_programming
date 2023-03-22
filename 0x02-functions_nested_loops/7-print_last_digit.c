@@ -4,7 +4,7 @@
  * int : input
  * Return: 1 is a letter 0 other
  */
-int print_last_digit(int)
+int print_last_digit(int a)
 {
 	int a;
 
