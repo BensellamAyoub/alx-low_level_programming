@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * more_numbers - 0 to 9 no 2 and 4
+ * print_square - square
  */
-void more_numbers(void)
+void print_square(int size)
 {
 	int i, j, size;
 
