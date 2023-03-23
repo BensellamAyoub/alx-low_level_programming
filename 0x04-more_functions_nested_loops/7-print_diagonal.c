@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- *  print_diagonal(int n)
- * line print
+ * print_diagonal - line print
  * @n : input
  * Return: nothing
  */
