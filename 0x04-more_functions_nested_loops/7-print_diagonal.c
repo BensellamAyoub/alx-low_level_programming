@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- *  print_diagonal(int n)
- * line print
+ * print_diagonal - print diago
  * @n : input
  * Return: nothing
  */
@@ -17,8 +16,8 @@ void print_diagonal(int n)
 
 	for (j = 0; j < n; j++)
 	{
-		_putchar(32); // space
+		_putchar(32); /* space */
 	}
-	_putchar(92); // "\"
+	_putchar(92); /* backslash */
 	_putchar('\n');
 }
