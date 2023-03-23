@@ -1,21 +1,21 @@
 #include "main.h"
 /**
- * @size : input size
+ * @n : input n
  * print_line - print line
  */
-void print_square(int size)
+void print_line(int n)
 {
-	int i, j, size;
+	int i, size;
 
-	if (size <= 0)
+	if (n <= 0)
 	{
 		_putchar('\n');
 		break;
 	}
 
-	for (i = 0; i < size; i++)
+	for (i = 0; i < n; i++)
 	{
-		for (j = 0; j < size; j++)
+		for (j = 0; j < n; j++)
 		{
 			_putchar('#');
 		}
