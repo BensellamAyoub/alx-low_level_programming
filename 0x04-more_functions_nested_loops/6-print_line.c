@@ -1,11 +1,12 @@
 #include "main.h"
 /**
- * @n : input n
- * print_line - print line
+ * print_line - line print
+ * @n : input
+ * Return: nothing
  */
 void print_line(int n)
 {
-	int i, size;
+	int i, n;
 
 	if (n <= 0)
 	{
@@ -13,12 +14,9 @@ void print_line(int n)
 		return;
 	}
 
-	for (i = 0; i < n; i++)
+	for (j = 0; j < n; j++)
 	{
-		for (j = 0; j < n; j++)
-		{
-			_putchar('_');
-		}
-		_putchar('\n');
+		_putchar('_');
 	}
+	_putchar('\n');
 }
