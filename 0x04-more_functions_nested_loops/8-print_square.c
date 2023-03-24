@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * print_square - square
+ * print_square - print square
+ * @size : input
+ * Return: Always 0 (Success)
  */
 void print_square(int size)
 {
@@ -9,7 +11,7 @@ void print_square(int size)
 	if (size <= 0)
 	{
 		_putchar('\n');
-		break;
+		return;
 	}
 
 	for (i = 0; i < size; i++)
