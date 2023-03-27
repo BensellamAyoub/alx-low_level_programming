@@ -6,14 +6,16 @@
 #include "main.h"
 void _puts(char *str)
 {
-	int i = 0;
+	int j = 0;
 
-	while (str[i] != '\0')
+	int i;
+
+	while (str[j] != '\0')
 	{
-		i++;
+		j++;
 	}
 
-	for (i = 0; i < _strlen(str); i++)
+	for (i = 0; i < j; i++)
 	{
 		_putchar(str[i]);
 	}
