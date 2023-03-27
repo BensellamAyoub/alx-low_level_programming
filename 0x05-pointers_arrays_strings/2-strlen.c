@@ -1,8 +1,8 @@
-/*
-* _strlen - string length
-   * @*s : input
-   * return - i
-   */
+/**
+ * _strlen - string lenght
+  * @s : input
+ * Return: i
+ */
 #include "main.h"
 int _strlen(char *s)
 {
@@ -12,6 +12,5 @@ int _strlen(char *s)
 	{
 		i++;
 	}
-	
 	return (i);
 }
