@@ -6,7 +6,12 @@
 #include "main.h"
 void _puts(char *str)
 {
-	int i;
+	int i = 0;
+
+	while (str[i] != '\0')
+	{
+		i++;
+	}
 
 	for (i = 0; i < _strlen(str); i++)
 	{
