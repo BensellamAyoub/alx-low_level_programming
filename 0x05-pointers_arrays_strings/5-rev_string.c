@@ -8,15 +8,10 @@ void rev_string(char *s)
 {
 	int i;
 
-	int j = 0;
+	int x = _strlen(s);
 
-	while (s[j] != '\0')
-	{
-		j++;
-	}
-	for (i = j - 1; i >= 0; i--)
+	for (i = x - 1; i >= 0; i--)
 	{
 		_putchar(s[i]);
 	}
-	_putchar('\n');
 }
