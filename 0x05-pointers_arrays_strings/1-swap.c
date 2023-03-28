@@ -1,4 +1,3 @@
-
 /**
  * swap_int - string print
  * @a : input
@@ -9,6 +8,8 @@
 void swap_int(int *a, int *b)
 {
 	int temp = *a;
+
 	*a = *b;
 	*b = temp;
+
 }
