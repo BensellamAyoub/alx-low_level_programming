@@ -20,8 +20,6 @@ void rev_string(char *s)
 	{
 		len++;
 	}
-	return (len);
-
 	for (i = 0; i <= len - 1; i++)
 	{
 		_putchar(s[i]);
