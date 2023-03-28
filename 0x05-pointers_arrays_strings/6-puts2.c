@@ -6,18 +6,14 @@
 #include "main.h"
 void puts2(char *str)
 {
-	int len = 0;
+	int i = 0;
 
-	int i;
+	iint i = 0;
 
-	while (str[len] != '\0')
-	{
-		len++;
-	}
-
-	for (i = 1; i <= len - 1; i++)
+	while (str[i] != '\0')
 	{
 		_putchar(str[i]);
+		i += 2;
 	}
 	_putchar('\n');
 }
