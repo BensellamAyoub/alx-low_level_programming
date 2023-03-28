@@ -14,7 +14,6 @@ void rev_string(char *s)
 	{
 		j++;
 	}
-	printf("%i \n", j);
 	for (i = j - 1; i >= 0; i--)
 	{
 		_putchar(s[i]);
