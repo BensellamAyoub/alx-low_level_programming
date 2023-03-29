@@ -5,3 +5,4 @@ void _puts(char *str);
 void rev_string(char *s);
 void puts2(char *str);
 void swap_int(int *a, int *b);
+void print_array(int *a, int n);
