@@ -3,6 +3,7 @@
  * @s : input
  * Return:  output.
  */
+#include "main.h"
 void _puts_recursion(char *s)
 {
 	int i = 0;
