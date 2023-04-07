@@ -4,7 +4,7 @@
  * Return:  int lenght.
  */
 #include "main.h"
-void _strlen_recursionchar *s)
+void _strlen_recursionchar(char *s)
 {
 	if (*s == '\0')
 	{
