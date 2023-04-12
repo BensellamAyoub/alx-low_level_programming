@@ -3,19 +3,27 @@
  * create_array -  create an array
  * @size : input
  * @c : caracter
- * Return: null
+ * Return: array
  */
 char *create_array(unsigned int size, char c)
 {
-	int i, x;
+	int i;
+
+	char *arr;
 
 	if (size == 0)
 	{
 		return (NULL);
 	}
-	x = malloc(size * sizeof(char));
+	arr = malloc(size * sizeof(char));
+
+	if (arr == 0)
+	{
+		return (NULL);
+	}
 	for (i = 0; i < size; i++)
 	{
-		create_array[i] = c;
+		arr[i] = c;
 	}
+	return (arr);
 }
