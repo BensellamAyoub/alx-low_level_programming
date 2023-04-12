@@ -34,13 +34,12 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
+	s3 = malloc((len_s1 * sizeof(char)) + ((len_s2 + 1) * sizeof(char)));
+
 	if (s3 == NULL)
 	{
 		return (NULL);
 	}
-
-	s3 = malloc((len_s1 * sizeof(char)) + ((len_s2 + 1) * sizeof(char)));
-
 	for (i = 0; i < len_s1; i++)
 	{
 		s3[i] = s1[i];
